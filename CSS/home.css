@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #a8e6a3, #e6a8a3);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 43px;
+    font-weight: bold;
+    color: #33691E;
+}
+
+.logo img {
+    margin-top: 20px;
+    width: 150px;
+    margin-right: -30px;
+}
+
+.bot {
+    width: 60%;
+    margin-top: -40px;
+}
+
+.message {
+    font-size: 25px;
+    color: #5D4037;
+    margin-bottom: 20px;
+}
+
+.google-button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.google-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.go{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}

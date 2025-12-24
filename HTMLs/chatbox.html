@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/chatbox.css">
+    <title>airalyze</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+
+            <img src="../Images/airalyze-logo.png" alt="" class="logo-image">
+            <span class="logo-name">airalyze</span>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="messages" id="messages">
+            <div class="message bot-message">Hi! How can I assist you today?</div>
+
+        </div>
+        <div class="input-container">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+            <button class="send-button" id="sendButton" onclick="findDisease()">Send</button>
+        </div>
+    </div>
+
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
